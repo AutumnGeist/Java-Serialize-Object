@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<ns2:Student xmlns:ns2="serializeobject">
+    <FirstName>Rose</FirstName>
+    <LastName>Potter</LastName>
+    <Address>17 Cherry Lane</Address>
+    <City>Vienna</City>
+    <State>Virginia</State>
+    <Zipcode>22180</Zipcode>
+    <Registration>
+        <registrationNumber>5556</registrationNumber>
+        <totalHours>9</totalHours>
+        <totalCost>4050</totalCost>
+        <Courses>
+            <Course>
+                <courseID>MATH105</courseID>
+                <courseName>Precalculus</courseName>
+                <creditHours>3</creditHours>
+            </Course>
+            <Course>
+                <courseID>IT207</courseID>
+                <courseName>PHP Fundamentals</courseName>
+                <creditHours>3</creditHours>
+            </Course>
+            <Course>
+                <courseID>ENGH101</courseID>
+                <courseName>Composition</courseName>
+                <creditHours>3</creditHours>
+            </Course>
+        </Courses>
+        <Payment>
+            <type>Credit</type>
+            <cardNumber>400461259467000</cardNumber>
+            <pin>101</pin>
+        </Payment>
+    </Registration>
+</ns2:Student>
